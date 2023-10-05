@@ -13,10 +13,12 @@ import Blog from "../Components/Blog/Blog";
       path: "/",
       element: <Main></Main>,
       children: [
+
        {
         path: '/',
         element: <Home></Home>,
        },
+       
        {
         path: 'about',
         element: <About></About>
