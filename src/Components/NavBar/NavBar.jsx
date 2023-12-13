@@ -8,8 +8,8 @@ const navOption = <>
 <div className="flex font-bold ">
    
     <li className='/'><Link to="" >Home</Link></li>
-   <li className=''><Link to="">About</Link></li>
-   <li><Link to="">Contact</Link></li>
+   <li ><Link to="/about">About</Link></li>
+   <li><Link to="/login">Contact</Link></li>
   
     </div>
 
